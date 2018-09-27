@@ -1,5 +1,7 @@
 from flask import Flask
 from flask import flash, render_template, request, redirect, url_for
+from config import Config
+
 
 app = Flask(__name__)
 app.config.from_object(Config)
