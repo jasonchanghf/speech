@@ -1,7 +1,8 @@
 from flask import Flask
 from flask import flash, render_template, request, redirect, url_for
 
-app=Flask(__name__)
+app = Flask(__name__)
+app.config.from_object(Config)
 
 @app.route('/')
 def index():
