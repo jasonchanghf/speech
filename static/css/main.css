@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Average');
+  
+html {
+  box-sizing: border-box;
+  font-family: 'Average', serif;
+  color: #000000;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+  
+body {
+  background-color: grey;
+}  
